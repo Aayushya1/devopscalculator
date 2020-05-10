@@ -47,4 +47,12 @@ public class AppTest
 
         Assert.assertEquals(expectedResult, result);
     }
+    @Test
+    public void testdiv() {
+        Double a = Double.valueOf(45);
+        Double b = Double.valueOf(10);
+        double expectedResult = 4.5;
+        double result = calculator.division(a,b);
+        Assert.assertEquals(expectedResult, result,0.00005);
+    }
 }

@@ -16,6 +16,8 @@ public class App
 
         System.out.println("Output for the Multiplication is : "+multiplication(a,b));
 
+        System.out.println("Output for the Division is : "+division(Double.valueOf(a),Double.valueOf(b)));
+
     }
 
     public static Integer addition(Integer a,Integer b){ return a+b;}
@@ -23,4 +25,7 @@ public class App
     public static Integer subtraction(Integer a,Integer b){return  a-b;}
 
     public static Integer multiplication(Integer a,Integer b){return a*b;}
+
+    public static Double division(Double a,Double b){return  a/b;}
+
 }
